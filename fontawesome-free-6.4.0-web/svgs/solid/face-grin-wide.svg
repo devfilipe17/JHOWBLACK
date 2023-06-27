@@ -1,0 +1,6 @@
+oots, cannot be uninstalled
+12/27/2022 15:46:07.714 [9840]: ngen returning 0x00000000
+12/27/2022 15:46:08.339 [10192]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.V0c1ea960#\cb62ded2f2051ed97267273565285ad6\Microsoft.VisualStudio.Platform.VSEditor.ni.dll /noroot /LegacyServiceBehavior 
+12/27/2022 15:46:08.620 [10192]: Native image used by one or more roots, cannot be uninstalled
+12/27/2022 15:46:08.636 [10192]: ngen returning 0x00000000
+12/27/2022 15:46:08.792 [7424]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\W

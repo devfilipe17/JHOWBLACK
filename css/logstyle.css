@@ -1,0 +1,198 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  /* background-color: gray; */
+  background-image: url(../imagens-novas/unsplashBarber.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+:root{
+  --cor-header:#545454;
+  /* ---paleta-1: #ffc413; */
+  ---paleta-1: #f2d16d;
+  --paleta2: #f4f4f4;
+  --font-titulo:'PT Sans', sans-serif;
+}
+/* HEADER */
+
+header{
+  /* opacity: 0.9; */
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0);
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid var(---paleta-1);
+}
+  
+.menu ul{
+  list-style: none;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  color: #fff;
+  font-family:'PT Sans', sans-serif;
+}
+  
+  .menu ul li{
+    margin-right: 3em;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .menu ul li a{
+    color: #fff;
+  }
+  
+  .redes-sociais{
+    margin-right: 2em;
+  transition: 0.5s  ;
+
+  }
+
+  .redes-sociais i:hover{
+    color: var(---paleta-1);
+  }
+  
+  .redes-sociais i{
+    color: #fff;
+    margin-right: 0.5em;
+  }
+  
+  .voltar-principal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 10%;
+    height: 60px;
+    padding: 0.5em;
+  }
+  
+  .voltar-sub{
+    margin-right: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(255, 255, 255) ;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .voltar-sub:hover{
+    background-color: var(---paleta-1);
+    
+  }
+  
+  .voltar-sub p a{
+    color: #fff;
+    font-family:var(--font-titulo);
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .cadastrar-sub{
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(255, 255, 255) ;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .cadastrar-sub:hover{
+    background-color: rgb(224, 76, 50);
+  
+  }
+  
+  .menu ul li:hover a{
+    opacity: 1;
+    transition: 0.5s;
+    color: var(---paleta-1);
+  }
+  /* HEADER FINAL */
+
+.formulario{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.767);
+    /* opacity: 2; */
+    width: 600px;
+    padding: 15px;
+    border: 3px solid #f2d16d;
+    border-radius: 8px;
+}
+.title-form h1{
+  font-family: var(--font-titulo);
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.box-text label>input{
+    padding: 15px 5px;
+    width: 90%;
+}
+.box-text i{
+    padding: 0px 8px;
+}
+.box-text {
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+.btn input{
+  color: white;
+  background-color: black;
+  border: solid 2px white;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bolder;
+  transition: 0.6s;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.btn input:hover{
+  cursor: pointer;
+  color: black;
+  background-color: #ffd451;
+  font-weight: bolder;
+}
+.btn-cadastro{
+  font-family: var(--font-titulo);
+  text-align: center;
+  /* justify-content: space-around; */
+}
+.btn-cadastro p {
+  color: var(--paleta2);
+  padding: 5px 15px;
+}
+.btn-cadastro a {
+  color: var(---paleta-1);
+}

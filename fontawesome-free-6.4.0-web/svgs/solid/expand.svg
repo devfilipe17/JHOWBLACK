@@ -1,0 +1,7 @@
+ <returns>Eine neue, die Groß- und Kleinschreibung nicht berücksichtigende Instanz der <see cref="T:System.Collections.Hashtable" />-Klasse mit der angegebenen Anfangskapazität.</returns>
+      <param name="capacity">Die ungefähre Anzahl von Einträgen, die die <see cref="T:System.Collections.Hashtable" /> anfänglich enthalten kann. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="capacity" /> ist kleiner als 0 (null). </exception>
+    </member>
+    <member name="M:System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveSortedList">
+      <summary>Erstellt eine neue Instanz der <see cref="T:System.Collections.SortedList" />-Klasse, die die Groß- und Kleinschreibung 

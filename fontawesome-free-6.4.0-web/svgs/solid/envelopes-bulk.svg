@@ -1,0 +1,7 @@
+0f1f42dd6b8c0dc1569a39a\Microsoft.ProgramSynthesis.CoreFxLab.ni.dll /noroot /LegacyServiceBehavior 
+12/27/2022 15:42:12.753 [10040]: Native image used by one or more roots, cannot be uninstalled
+12/27/2022 15:42:12.769 [10040]: ngen returning 0x00000000
+12/27/2022 15:42:12.800 [9352]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.Pb378ec07#\6163d9d46296fef20f5d02e5b7cf6d5d\Microsoft.PowerShell.ConsoleHost.ni.dll /noroot /LegacyServiceBehavior 
+12/27/2022 15:42:13.081 [9352]: Native image used by one or more roots, cannot be uninstalled
+12/27/2022 15:42:13.097 [9352]: ngen returning 0x00000000
+12/27/2022 15:42:13.206 [1328]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\WINDOWS\assembly\NativeImages_v4

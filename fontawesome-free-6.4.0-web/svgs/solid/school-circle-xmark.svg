@@ -1,0 +1,10 @@
+cannot be uninstalled
+12/28/2022 12:21:48.337 [2620]: ngen returning 0x00000000
+12/28/2022 12:21:48.353 [4776]: Command line: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe uninstall C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\MSBuild\84f3c065e0a528b16e7cf7e19ca0a15c\MSBuild.ni.exe /noroot /LegacyServiceBehavior 
+12/28/2022 12:21:48.415 [4776]: Native image used by one or more roots, cannot be uninstalled
+12/28/2022 12:21:48.431 [4776]: ngen returning 0x00000000
+12/28/2022 12:21:48.431 [4660]: Command line: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe uninstall C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\MSBuild.resources\331f9ba1f6ca4960e99568bed7ad5a49\MSBuild.resources.ni.dll /noroot /LegacyServiceBehavior 
+12/28/2022 12:21:48.509 [4660]: Native image used by one or more roots, cannot be uninstalled
+12/28/2022 12:21:48.509 [4660]: ngen returning 0x00000000
+12/28/2022 12:21:48.540 [1332]: Command line: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe uninstall C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\MSBuild.resources\3d27ad1c7c1e9ead518f3e48b91d6b91\MSBuild.resources.ni.dll /noroot /LegacyServiceBehavior 
+12/28/2022 12:21:48.603 [1332]: Native image used by one or more roots, cannot be uninstalled

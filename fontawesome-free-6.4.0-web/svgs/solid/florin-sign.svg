@@ -1,0 +1,9 @@
+s)->lpVtbl -> GetIids(This,iidCount,iids) ) 
+#define __FIAsyncActionWithProgress_1_Windows__CWeb__CSyndication__CTransferProgress_GetRuntimeClassName(This,className)	\
+    ( (This)->lpVtbl -> GetRuntimeClassName(This,className) ) 
+#define __FIAsyncActionWithProgress_1_Windows__CWeb__CSyndication__CTransferProgress_GetTrustLevel(This,trustLevel)	\
+    ( (This)->lpVtbl -> GetTrustLevel(This,trustLevel) ) 
+
+#define __FIAsyncActionWithProgress_1_Windows__CWeb__CSyndication__CTransferProgress_put_Progress(This,handler)	\
+    ( (This)->lpVtbl -> put_Progress(This,handler) ) 
+#define __FIAsyncActionWithProgress_1_Windows

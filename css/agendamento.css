@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+:root{
+  --cor-header:#545454;
+  ---paleta-1: #ffc413;
+  /* ---paleta-1: #f2d16d; */
+  /* ---paleta-1: #ffbf00; */
+  --paleta2: #f4f4f4;
+  --font-titulo:'PT Sans', sans-serif;
+
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+/* HEADER */
+
+header{
+  /* position: fixed;
+  top: 0;
+  z-index: 3000;
+  opacity: 0.9; */
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0);
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid var(---paleta-1);
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  color: #fff;
+  font-family:var(--font-titulo)
+}
+
+.menu ul li{
+  margin-right: 3em;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.menu ul li a{
+  color: #fff;
+}
+
+.redes-sociais{
+  margin-right: 2em;
+}
+
+.redes-sociais i{
+  color: #fff;
+  margin-right: 0.5em;
+  transition: 0.5s  ;
+}
+
+.redes-sociais i:hover{
+  color: var(---paleta-1);
+}
+
+.voltar-principal{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 10%;
+  height: 60px;
+  padding: 0.5em;
+}
+
+.voltar-sub{
+  margin-right: 1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid rgb(255, 255, 255) ;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.voltar-sub:hover{
+  background-color: var(---paleta-1);
+  
+}
+
+.voltar-sub p a,
+.cadastrar-sub p{
+  color: #fff;
+  font-family:var(--font-titulo);
+  font-size: large;
+  font-weight: bold;
+  
+}
+
+.cadastrar-sub{
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid rgb(255, 255, 255) ;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cadastrar-sub:hover{
+  background-color: rgb(224, 76, 50);
+
+}
+
+.menu ul li:hover a{
+  opacity: 1;
+  transition: 0.5s;
+  color: var(---paleta-1);
+}
+/* HEADER FINAL */
+
+
+
+/* FORMULARIO */
+
+.container-all{
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  font-family: var(--font-titulo);
+}
+
+.container-esq{
+  border-right: 3px solid black;
+  /* border-bottom: 3px solid black; */
+}
+.container-dir{
+  border-left: 3px solid black;
+}
+
+.container-dir,
+.container-esq{
+  /* background-color: var(--cor-header); */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 1em;
+  /* border: 1px solid red; */
+}
+
+
+
+form p strong{
+  font-size: larger;
+  font-weight: bold;
+  font-family: var(--font-titulo);
+  padding: 1em;
+
+}
+
+.select-barber{
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.check-barber{
+  cursor: pointer;
+  margin-top: 1em;
+  padding: 8px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 130px;
+  height: 35px;
+  border-radius: 1em;
+  background-color: var(--paleta2);
+  color: #000;
+  border:2px solid #ffc413;
+  transition: 0.5s;
+}
+
+.check-barber p {
+  margin-left: 0.8em;
+  font-size: larger;
+  font-weight: bold;
+  font-family: var(--font-titulo);
+}
+
+.check-barber:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.data{
+  /* border: 1px solid black; */
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.data input{
+  background-color: var(--paleta2);
+  border: 3px solid var(---paleta-1);
+  width: 80%;
+  text-align: center;
+  /* padding: 1em; */
+  font-size: 1.3em;
+  /* height: 100%; */
+  transition: 0.5s;
+  border-radius: 12px;
+}
+
+.data input:hover{
+  color: #fff;
+  background-color: #000;
+  /* color: #fff; */
+}
+
+.horario{
+  height: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.time{
+  cursor: pointer;
+  transition: 0.6s;
+  font-family: var(--font-titulo);
+  text-align: center;
+  width: 70px;
+  border: 2px solid var(---paleta-1);
+  padding: 0.7em;
+  margin: 0.5em;
+  border-radius: 13px;
+  background-color: var(--paleta2);
+  /* margin-right: 10px; */
+}
+
+.time:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+.time:nth-child(2),
+.time:nth-child(5),
+.time:nth-child(10),
+.time:nth-child(14),
+.time:nth-child(17),
+.time:nth-child(20),
+.time:nth-child(8) {
+  background-color: rgba(255, 0, 0, 0.74);
+}
+
+
+
+.container-dir form{
+ width: 100%;
+}
+
+.opcoes{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  height: 50%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.inf-cortes{
+  /* border: 1px solid purple; */
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  /* justify-content: center; */
+  
+}
+
+.inf-cortes p{
+  font-size: large;
+  font-weight: bolder;
+  /* color: gray; */
+  font-family: var(--font-titulo);
+  /* margin-top: 1em */
+}
+
+.inf-cortes p strong{
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: var(--font-titulo);
+  color: #000;
+}
+
+.cortes{
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid var(---paleta-1);
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1em;
+  background-size: cover;
+  background-position: center center;
+  transition: 0.5s;
+}
+.cortes:hover{
+  scale: 1.1;
+  opacity: 0.8;
+}
+
+.img1{
+  background-image: url(../imagens-novas/img-1-agendamento.jpg);
+}
+
+.img2{
+  background-image: url(../imagens-novas/img-2-agendamento.jpg);  
+}
+
+.img3{
+  background-image: url(../imagens-novas/img-3-agendamento.jfif);
+  
+}
+
+.container-btn{
+  /* outline: none; */
+  padding: 3em;
+  /* border: 1px solid blue; */
+  height: 35vh;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+}
+
+.container-btn p {
+  cursor: pointer;
+  border: 2px solid var(---paleta-1);
+  background-color: var(--paleta2);
+  padding: 0.7em;
+  font-family: var(--font-titulo);
+  font-size: large;
+  font-weight: bolder;
+  transition: 0.6s;
+  border-radius: 10px;
+}
+
+.container-btn p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container-btn p:hover{
+  background-color: #000;
+}
+
+.container-btn p:hover a{ 
+  color: #fff;
+}
+
+
+/* Calendario */
+
+
